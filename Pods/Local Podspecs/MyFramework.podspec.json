@@ -1,0 +1,35 @@
+{
+  "name": "MyFramework",
+  "version": "0.0.1",
+  "summary": "A short description of MyFramework.",
+  "description": "test frame work",
+  "homepage": "https://github.com/Raj-Sai/MyFramework.git",
+  "license": "MIT",
+  "authors": {
+    "Amsaraj Mariyappan": "raj.amsarajm93@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/Raj-Sai/MyFramework.git",
+    "branch": "main"
+  },
+  "source_files": "MyFramework/**/*.{h,m,swift}",
+  "exclude_files": "Classes/Exclude",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "Alamofire": [
+
+    ]
+  }
+}

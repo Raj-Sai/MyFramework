@@ -11,8 +11,8 @@ public class AppCoordinator: Coordinator {
     
     override public func start() {
         let loadingPage = AppLaunchViewController()
-        loadingPage.viewModel = AppLaunchViewModel()
-        navigationController.pushViewController(loadingPage, animated: true)
+        loadingPage.view.backgroundColor = .red
+        self.navigationController.pushViewController(loadingPage, animated: true)
     }
     
 }
