@@ -13,12 +13,12 @@ Pod::Spec.new do |spec|
  
   spec.platform     = :ios, "10.0"
 
-  spec.source       = { :git => "https://github.com/Raj-Sai/MyFramework.git" }
+  spec.source       = { :git => "https://github.com/Raj-Sai/MyFramework.git", :branch => 'main' }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
+  spec.source_files  = "MyFramework/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "MyFramework/**/*.h"
     spec.frameworks = 'UIKit'
     spec.dependency 'SnapKit'
     spec.dependency 'RxSwift'
